@@ -29,11 +29,25 @@
             }
         }
 
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
         body {
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #ff0000, #ff7f00);
+            background: linear-gradient(135deg, #ff0000, #ff7f00, #ff6600, #ff5050);
+            background-size: 200% 200%;
+            animation: gradientBG 10s ease infinite;
             overflow-x: hidden;
         }
 
@@ -124,7 +138,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="P.png" alt="Pomodoro Timer App logo">
+        <img src="logo.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
         <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
