@@ -45,7 +45,7 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #00bfff, #ffffff);
+            background: linear-gradient(135deg, #ff0000, #ff7f00, #ff6600, #ff5050);
             background-size: 200% 200%;
             animation: gradientBG 10s ease infinite;
             overflow-x: hidden;
@@ -126,7 +126,7 @@
             position: fixed;
             top: 20px;
             right: 20px;
-            background: linear-gradient(135deg, #00bfff, #ffffff);
+            background: linear-gradient(135deg, #ff0000, #ff7f00, #ff6600, #ff5050);
             color: white;
             padding: 10px 20px;
             border-radius: 50px;
@@ -181,7 +181,7 @@
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. Ifyou disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
@@ -192,7 +192,7 @@
         <p>As we do not collect or store personal data beyond what is necessary for the payment process, user rights pertaining to data access, modification, or deletion may be limited. For any concerns or requests related to your data, please contact us directly.</p>
 
         <h2>Data Security</h2>
-        <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, which implements its own security measures. We do not handle or store this data on our servers.</p>
+        <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, which implements its own security measures. We do not handle orstore this data on our servers.</p>
 
         <h2>Children’s Privacy</h2>
         <p>Our application is intended for a general audience and does not knowingly collect or solicit personal information from anyone under the age of 13.</p>
