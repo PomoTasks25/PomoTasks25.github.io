@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,18 +7,43 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            background-image: url('background.jpg');
+            background-size: cover;
         }
 
         .container {
             width: 80%;
             margin: 0 auto;
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        h2 {
+            color: #666;
+        }
+
+        p {
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 100px;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="logo.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
         <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
