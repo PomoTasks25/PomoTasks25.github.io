@@ -15,21 +15,37 @@
             }
         }
 
+        @keyframes float {
+            0% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+            50% {
+                box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+                transform: translatey(-20px);
+            }
+            100% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+        }
+
         body {
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
             background: linear-gradient(135deg, #ff0000, #ff7f00);
+            overflow-x: hidden;
         }
 
         .container {
-            animation: fadeIn 1s;
+            animation: fadeIn 1s, float 6s infinite;
             width: 80%;
             margin: 0 auto;
             padding: 20px;
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
-            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            transition: background 0.5s;
         }
 
         h1 {
@@ -52,7 +68,60 @@
             width: 100px;
             box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
         }
+
+        .top-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #ff7f00;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: all 0.3s;
+            opacity: 0.7;
+            display: none;
+        }
+
+        .top-btn:hover {
+            opacity: 1;
+        }
+
+        .top-btn::before {
+            content: "Scroll to top";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            opacity: 0;
+            transform: translatex(-50%) scale(0.5);
+            transition: all 0.3s;
+            pointer-events: none;
+        }
+
+        .top-btn:hover::before {
+            bottom: 120%;
+            opacity: 1;
+            transform: translatex(-50%) scale(1);
+        }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 200) {
+                    $('.top-btn').fadeIn();
+                } else {
+                    $('.top-btn').fadeOut();
+                }
+            });
+
+            $('.top-btn').click(function() {
+                $('html, body').animate({scrollTop: 0}, 800);
+                return false;
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="container">
@@ -89,5 +158,6 @@
         <p>Email: pomotasks25@gmail.com</p>
         <p>Phone: +48 797543138</p>
     </div>
+    <a href="#" class="top-btn">Top</a>
 </body>
 </html>
