@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pomo Tasks</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
         @keyframes fadeIn {
             from {
@@ -42,10 +42,10 @@
         }
 
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #ff0000, #ff7f00, #ff6600, #ff5050);
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
             background-size: 200% 200%;
             animation: gradientBG 10s ease infinite;
             overflow-x: hidden;
@@ -59,27 +59,33 @@
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
             transition: background 0.5s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
 
         h1 {
             color: #333;
             text-align: center;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            font-size: 30px;
+            margin-top: 0;
         }
 
         h2 {
             color: #666;
+            margin-top: 30px;
+            font-size: 20px;
         }
 
         p {
             color: #333;
+            line-height: 1.6;
         }
 
         img {
             display: block;
             margin: 20px auto;
             width: 100px;
-            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
         }
 
         .top-btn {
@@ -110,6 +116,8 @@
             transform: translatex(-50%) scale(0.5);
             transition: all 0.3s;
             pointer-events: none;
+            font-size: 12px;
+            font-weight: bold;
         }
 
         .top-btn:hover::before {
@@ -167,7 +175,7 @@
         <p>For the optimal functioning of the app, we require certain permissions from your device, such as access to notifications and live activities. These permissions do not involve access to your personal data and are solely used to ensure proper app functionality.</p>
 
         <h2>Contact Us</h2>
-        <p>For any questions or concerns about this Privacy Policy, please contact us at:</p>
+        <p>Forany questions or concerns about this Privacy Policy, please contact us at:</p>
         <p>Email: pomotasks25@gmail.com</p>
         <p>Phone: +48 797543138</p>
     </div>
