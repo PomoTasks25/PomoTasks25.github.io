@@ -8,7 +8,6 @@
             from {
                 opacity: 0;
             }
-
             to {
                 opacity: 1;
             }
@@ -88,9 +87,9 @@
 
         .top-btn {
             position: fixed;
-            bottom: 20px;
+            top: 20px;
             right: 20px;
-            background: #ff7f00;
+            background: linear-gradient(135deg, #00bfff, #ffffff);
             color: white;
             padding: 10px 20px;
             border-radius: 50px;
@@ -120,6 +119,18 @@
             bottom: 120%;
             opacity: 1;
             transform: translateX(-50%) scale(1);
+        }
+
+        .last-updated {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #00bfff, #ffffff);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 14px;
+            opacity: 0.9;
         }
     </style>
 </head>
