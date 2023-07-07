@@ -166,7 +166,7 @@
         .dark-light-btn {
             position: fixed;
             top: 20px;
-            left: 20px;
+            left:20px;
             background: #333;
             color: #fff;
             border: none;
@@ -188,7 +188,7 @@
         }
 
         .dark-mode {
-            background: linear-gradient(135deg, #662222, #664400);
+            background: linear-gradient(135deg, #442222, #440000);
             color: #fff;
         }
     </style>
@@ -213,7 +213,7 @@
                 return false;
             });
 
-           $('.last-updated-btn').fadeIn();
+            $('.last-updated-btn').fadeIn();
         });
     </script>
 </head>
@@ -222,7 +222,7 @@
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the Pomodorkens Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Pomu Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
