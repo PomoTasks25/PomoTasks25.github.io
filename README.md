@@ -43,7 +43,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="/Users/wiktor/Documents/Apple/App2/Pomo_Tasks/Pomo Tasks 3.png" alt="Pomo Tasks App logo">
+        <img src="/Users/wiktor/Documents/Apple/App2/Pomo_Tasks/P.jpeg" alt="Pomo Tasks App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
         <p>Welcome to the Pomo Tasks App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
