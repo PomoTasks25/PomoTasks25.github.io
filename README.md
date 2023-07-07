@@ -49,6 +49,7 @@
             background-size: 200% 200%;
             animation: gradientBG 10s ease infinite;
             overflow-x: hidden;
+            color: #333;
         }
 
         .container {
@@ -59,31 +60,32 @@
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
             transition: background 0.5s;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
         }
 
         h1 {
-            color: #333;
             text-align: center;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            font-size: 36px;
+            margin-top: 0;
         }
 
         h2 {
+            font-size: 24px;
             color: #666;
+            margin-bottom: 10px;
         }
 
         p {
-            color: #333;
+            margin-bottom: 10px;
         }
 
         img {
             display: block;
-            margin: 0 auto;
+            margin: 20px auto;
             width: 100px;
-            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 10px;
-            opacity: 0.9;
+            border-radius: 50%;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
         }
 
         .top-btn {
@@ -126,7 +128,7 @@
             position: fixed;
             top: 20px;
             right: 20px;
-            background: linear-gradient(135deg, #ff0000, #ff7f00, #ff6600, #ff5050);
+            background: linear-gradient(135deg, #00bfff, #ffffff);
             color: white;
             padding: 10px 20px;
             border-radius: 50px;
@@ -181,7 +183,7 @@
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the Pomodi Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Pi Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
@@ -192,7 +194,7 @@
         <p>As we do not collect or store personal data beyond what is necessary for the payment process, user rights pertaining to data access, modification, or deletion may be limited. For any concerns or requests related to your data, please contact us directly.</p>
 
         <h2>Data Security</h2>
-        <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, which implements its own security measures. We do not handle orstore this data on our servers.</p>
+        <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, whichimplements its own security measures. We do not handle or store this data on our servers.</p>
 
         <h2>Children’s Privacy</h2>
         <p>Our application is intended for a general audience and does not knowingly collect or solicit personal information from anyone under the age of 13.</p>
