@@ -101,6 +101,7 @@
             transition: all 0.3s;
             opacity: 0.7;
             display: none;
+            z-index: 9999;
         }
 
         .top-btn:hover {
@@ -108,7 +109,7 @@
         }
 
         .top-btn::before {
-            content: "Scroll to top";
+            content: "⬆";
             position: absolute;
             bottom: 100%;
             left: 50%;
@@ -137,6 +138,7 @@
             transition: all 0.3s;
             opacity: 0.7;
             display: none;
+            z-index: 9999;
         }
 
         .last-updated-btn:hover {
@@ -183,7 +185,7 @@
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the Pi Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Point Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
@@ -194,7 +196,7 @@
         <p>As we do not collect or store personal data beyond what is necessary for the payment process, user rights pertaining to data access, modification, or deletion may be limited. For any concerns or requests related to your data, please contact us directly.</p>
 
         <h2>Data Security</h2>
-        <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, whichimplements its own security measures. We do not handle or store this data on our servers.</p>
+        <p>Your payment data is secureas it is processed through Revenue Cat, a third-party payment processing service, which implements its own security measures. We do not handle or store this data on our servers.</p>
 
         <h2>Children’s Privacy</h2>
         <p>Our application is intended for a general audience and does not knowingly collect or solicit personal information from anyone under the age of 13.</p>
@@ -213,7 +215,7 @@
         <p>Email: pomotasks25@gmail.com</p>
         <p>Phone: +48 797543138</p>
     </div>
-    <a href="#" class="top-btn">Top</a>
+    <a href="#" class="top-btn">⬆</a>
     <a href="#" class="last-updated-btn" data-date="Last Updated: July 7, 2023">Last Updated</a>
 </body>
 </html>
