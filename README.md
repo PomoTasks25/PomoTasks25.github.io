@@ -122,7 +122,7 @@
             transform: translateX(-50%) scale(1);
         }
 
-        .top-right-btn {
+        .last-updated-btn {
             position: fixed;
             top: 20px;
             right: 20px;
@@ -137,11 +137,11 @@
             display: none;
         }
 
-        .top-right-btn:hover {
+        .last-updated-btn:hover {
             opacity: 1;
         }
 
-        .top-right-btn::before {
+        .last-updated-btn::before {
             content: attr(data-date);
             position: absolute;
             bottom: 100%;
@@ -152,7 +152,7 @@
             pointer-events: none;
         }
 
-        .top-right-btn:hover::before {
+        .last-updated-btn:hover::before {
             bottom: 120%;
             opacity: 1;
             transform: translateX(-50%) scale(1);
@@ -181,7 +181,7 @@
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the Pomo Tasks App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. Ifyou disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
@@ -212,6 +212,6 @@
         <p>Phone: +48 797543138</p>
     </div>
     <a href="#" class="top-btn">Top</a>
-    <a href="#" class="top-right-btn" data-date="July 7, 2023">Date</a>
+    <a href="#" class="last-updated-btn" data-date="Last Updated: July 7, 2023">Last Updated</a>
 </body>
 </html>
