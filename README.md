@@ -1,175 +1,107 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pomo Tasks</title>
+    <title>Pomo Tasks - Terms of Use</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes float {
-            0% {
-                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-                transform: translatey(0px);
-            }
-            50% {
-                box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-                transform: translatey(-20px);
-            }
-            100% {
-                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-                transform: translatey(0px);
-            }
-        }
-
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
+        :root {
+            --main-color: #F46036;
+            --accent-color: #FF8338;
         }
 
         body {
             font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to right, var(--main-color), var(--accent-color));
+            color: #fff;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #ff0000, #ff7f00, #ff6600, #ff5050);
-            background-size: 200% 200%;
-            animation: gradientBG 10s ease infinite;
-            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
         }
 
         .container {
-            animation: fadeIn 1s, float 6s infinite;
-            width: 80%;
-            margin: 0 auto;
+            max-width: 800px;
+            margin: 20px;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
             border-radius: 10px;
-            transition: background 0.5s;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #666;
-        }
-
-        p {
-            color: #333;
+            border: 1px solid rgba(255,255,255,0.15);
+            overflow: auto;
+            height: 90vh;
         }
 
         img {
-            display: block;
-            margin: 20px auto;
             width: 100px;
-            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3, h4, p {
+            margin: 10px 0;
+            line-height: 1.6;
         }
 
         .top-btn {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #ff7f00;
-            color: white;
-            padding: 10px 20px;
+            right: 30px;
+            bottom: 30px;
+            background: var(--accent-color);
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
             border-radius: 50px;
             text-decoration: none;
-            font-size: 14px;
-            transition: all 0.3s;
-            opacity: 0.7;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease-in-out;
             display: none;
         }
 
-        .top-btn:hover {
+        .top-btn.show {
             opacity: 1;
-        }
-
-        .top-btn::before {
-            content: "Scroll to top";
-            position: absolute;
-            bottom: 100%;
-            left: 50%;
-            opacity: 0;
-            transform: translatex(-50%) scale(0.5);
-            transition: all 0.3s;
-            pointer-events: none;
-        }
-
-        .top-btn:hover::before {
-            bottom: 120%;
-            opacity: 1;
-            transform: translatex(-50%) scale(1);
+            transform: translateY(0);
+            display: inline-block;
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
+            var btn = $('.top-btn');
+
             $(window).scroll(function() {
-                if ($(this).scrollTop() > 200) {
-                    $('.top-btn').fadeIn();
+                if ($(window).scrollTop() > 300) {
+                    btn.addClass('show');
                 } else {
-                    $('.top-btn').fadeOut();
+                    btn.removeClass('show');
                 }
             });
 
-            $('.top-btn').click(function() {
-                $('html, body').animate({scrollTop: 0}, 800);
-                return false;
+            btn.on('click', function(e) {
+                e.preventDefault();
+                $('html, body').animate({scrollTop:0}, '300');
             });
         });
     </script>
 </head>
 <body>
     <div class="container">
-        <img src="Pomo Tasks 4.svg" alt="Pomodoro Timer App logo">
-        <h1>Privacy Policy</h1>
-        <h2>Introduction</h2>
-        <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
-
-        <h2>Data Collection and Use</h2>
-        <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
-        <p>The data is only collected when you manually input it during the payment process.</p>
-        <p>We use a third-party payment processing service called Revenue Cat to handle transactions. As such, some of your information may be shared with Revenue Cat during the transaction process. We recommend reviewing Revenue Cat’s privacy policy to understand how they use and protect your information.</p>
-
-        <h2>User Rights</h2>
-        <p>As we do not collect or store personal data beyond what is necessary for the payment process, user rights pertaining to data access, modification, or deletion may be limited. For any concerns or requests related to your data, please contact us directly.</p>
-
-        <h2>Data Security</h2>
-        <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, which implements its own security measures. We do not handle or store this data on our servers.</p>
-
-        <h2>Children’s Privacy</h2>
-        <p>Our application is intended for a general audience and does not knowingly collect or solicit personal information from anyone under the age of 13.</p>
-
-        <h2>International Data Transfers</h2>
-        <p>We do not transfer data internationally.</p>
-
-        <h2>Changes to Privacy Policy</h2>
-        <p>We may update this Privacy Policy as necessary. Any updates will be notified through the app.</p>
-
-        <h2>Device Permissions</h2>
-        <p>For the optimal functioning of the app, we require certain permissions from your device, such as access to notifications and live activities. These permissions do not involve access to your personal data and are solely used to ensure proper app functionality.</p>
-
-        <h2>Contact Us</h2>
-        <p>For any questions or concerns about this Privacy Policy, please contact us at:</p>
-        <p>Email: pomotasks25@gmail.com</p>
-        <p>Phone: +48 797543138</p>
+        <img src="logo.png" alt="Pomodoro Timer App logo">
+        <h1>Terms and Conditions</h1>
+        <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
+        <h2>1. Links To Other Web Sites</h2>
+        <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by Pomo Tasks.</p>
+        <p>Pomo Tasks has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that Pomo Tasks shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+        <h2>2. Changes To This Terms of Use</h2>
+        <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
+        <h2>3. Contact Us</h2>
+        <p>If you have any questions about these Terms, please contact us at pomotasks25@gmail.com.</p>
     </div>
     <a href="#" class="top-btn">Top</a>
 </body>
