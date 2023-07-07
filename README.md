@@ -45,7 +45,7 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #663333, #664400, #336633);
+            background: linear-gradient(135deg, #ff0000, #00aaff, #ff7f00);
             background-size: 300% 300%;
             animation: gradientBG 10s ease infinite;
             overflow-x: hidden;
@@ -188,7 +188,7 @@
         }
 
         .dark-mode {
-            background: linear-gradient(135deg, #442222, #664400, #334422);
+            background: linear-gradient(135deg, #442222, #000066, #663300);
             color: #fff;
         }
 
@@ -225,9 +225,7 @@
 <body>
     <div class="container">
         <img src="P.png" alt="Pomodoro Timer App logo">
-        <h1>Privacy Policy</h1>
-        <h2>Introduction</h2>
-        <p>Welcome to thePomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+       Pomodoro Timer Appp! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
