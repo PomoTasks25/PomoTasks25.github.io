@@ -34,10 +34,10 @@
                 background-position: 0% 50%;
             }
             50% {
-                background-position: 100% 50%;
+                background-position: 50% 50%;
             }
             100% {
-                background-position: 0% 50%;
+                background-position: 100% 50%;
             }
         }
 
@@ -45,8 +45,8 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #662222, #664400);
-            background-size: 200% 200%;
+            background: linear-gradient(135deg, #663333, #664400, #336633);
+            background-size: 300% 300%;
             animation: gradientBG 10s ease infinite;
             overflow-x: hidden;
             color: #fff;
@@ -129,7 +129,7 @@
             position: fixed;
             top: 20px;
             right: 20px;
-            background: linear-gradient(135deg, #662222, #664400);
+            background: linear-gradient(135deg, #663333, #664400, #336633);
             color: white;
             padding: 10px 20px;
             border-radius: 50px;
@@ -166,7 +166,7 @@
         .dark-light-btn {
             position: fixed;
             top: 20px;
-            left:20px;
+            left: 20px;
             background: #333;
             color: #fff;
             border: none;
@@ -188,8 +188,13 @@
         }
 
         .dark-mode {
-            background: linear-gradient(135deg, #442222, #440000);
+            background: linear-gradient(135deg, #442222, #664400, #334422);
             color: #fff;
+        }
+
+        .dark-mode .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000;
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -222,7 +227,7 @@
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the Pomu Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
