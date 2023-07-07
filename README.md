@@ -78,7 +78,7 @@
         img {
             display: block;
             margin: 0 auto;
-            width: 200px;
+            width: 100px;
             box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
             background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
