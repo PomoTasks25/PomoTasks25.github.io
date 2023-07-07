@@ -8,7 +8,7 @@
             margin: 0;
             padding: 0;
             background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-            background-image: url('background.jpg');
+            background-image: url('/Users/wiktor/Desktop/yellow.jpg');
             background-size: cover;
         }
 
