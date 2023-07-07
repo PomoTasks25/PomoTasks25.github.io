@@ -45,7 +45,7 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #ff0000, #ff7f00, #ff6600, #ff5050);
+            background: linear-gradient(135deg, #ff5050, #ff6600);
             background-size: 200% 200%;
             animation: gradientBG 10s ease infinite;
             overflow-x: hidden;
@@ -171,12 +171,12 @@
             color: #fff;
             border: none;
             border-radius: 50%;
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 24px;
+            font-size: 20px;
             cursor: pointer;
             transition: background 0.3s, color 0.3s;
             z-index: 9999;
@@ -188,7 +188,7 @@
         }
 
         .dark-mode {
-            background-color: #333;
+            background: linear-gradient(135deg, #992222, #994400);
             color: #fff;
         }
     </style>
@@ -220,7 +220,7 @@
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the PI Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Pipu Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
