@@ -1,27 +1,41 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pomodoro Timer App Privacy Policy</title>
+    <title>Pomo Tasks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
             background: linear-gradient(135deg, #ff0000, #ff7f00);
         }
 
         .container {
+            animation: fadeIn 1s;
             width: 80%;
             margin: 0 auto;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
         }
 
         h1 {
             color: #333;
             text-align: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
 
         h2 {
@@ -36,6 +50,7 @@
             display: block;
             margin: 20px auto;
             width: 100px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
         }
     </style>
 </head>
