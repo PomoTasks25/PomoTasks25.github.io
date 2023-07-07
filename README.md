@@ -8,6 +8,7 @@
             from {
                 opacity: 0;
             }
+
             to {
                 opacity: 1;
             }
@@ -87,9 +88,9 @@
 
         .top-btn {
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
-            background: linear-gradient(135deg, #00bfff, #ffffff);
+            background: #ff7f00;
             color: white;
             padding: 10px 20px;
             border-radius: 50px;
@@ -121,24 +122,64 @@
             transform: translateX(-50%) scale(1);
         }
 
-        .last-updated {
+        .top-right-btn {
             position: fixed;
             top: 20px;
             right: 20px;
-            background: linear-gradient(135deg, #00bfff, #ffffff);
+            background: #ff7f00;
             color: white;
             padding: 10px 20px;
             border-radius: 50px;
+            text-decoration: none;
             font-size: 14px;
-            opacity: 0.9;
+            transition: all 0.3s;
+            opacity: 0.7;
+            display: none;
+        }
+
+        .top-right-btn:hover {
+            opacity: 1;
+        }
+
+        .top-right-btn::before {
+            content: attr(data-date);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            opacity: 0;
+            transform: translateX(-50%) scale(0.5);
+            transition: all 0.3s;
+            pointer-events: none;
+        }
+
+        .top-right-btn:hover::before {
+            bottom: 120%;
+            opacity: 1;
+            transform: translateX(-50%) scale(1);
         }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 200) {
+                    $('.top-btn').fadeIn();
+                } else {
+                    $('.top-btn').fadeOut();
+                }
+            });
+
+            $('.top-btn').click(function() {
+                $('html, body').animate({scrollTop: 0}, 800);
+                return false;
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="container">
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
-        <h2>Last Updated: <span class="last-updated">July 7, 2023</span></h2>
         <h2>Introduction</h2>
         <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
@@ -154,7 +195,7 @@
         <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, which implements its own security measures. We do not handle or store this data on our servers.</p>
 
         <h2>Children’s Privacy</h2>
-        <p>Our application is intended for a general audience and does not knowingly collect or solicit personal information from anyone under the age of 13.</p>
+        <p>Our applicationis intended for a general audience and does not knowingly collect or solicit personal information from anyone under the age of 13.</p>
 
         <h2>International Data Transfers</h2>
         <p>We do not transfer data internationally.</p>
@@ -171,5 +212,6 @@
         <p>Phone: +48 797543138</p>
     </div>
     <a href="#" class="top-btn">Top</a>
+    <a href="#" class="top-right-btn" data-date="July 7, 2023">Date</a>
 </body>
 </html>
