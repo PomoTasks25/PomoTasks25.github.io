@@ -81,7 +81,7 @@
             line-height: 1.6;
         }
 
-        img {
+        svg {
             display: block;
             margin: 20px auto;
             width: 100px;
