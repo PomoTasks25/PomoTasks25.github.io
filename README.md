@@ -1,15 +1,14 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pomodo Task App Privacy Policy</title>
+    <title>Pomodoro Timer App Privacy Policy</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-            background-image: url('/Users/wiktor/Desktop/yellow.jpg');
-            background-size: cover;
+            background: linear-gradient(135deg, #ff0000, #ff7f00);
         }
 
         .container {
@@ -43,10 +42,10 @@
 </head>
 <body>
     <div class="container">
-        <img src="/Users/wiktor/Documents/Apple/App2/Pomo_Tasks/P.jpeg" alt="Pomo Tasks App logo">
+        <img src="logo.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
-        <p>Welcome to the Pomo Tasks App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
+        <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
         <h2>Data Collection and Use</h2>
         <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
