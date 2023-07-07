@@ -122,41 +122,12 @@
             transform: translateX(-50%) scale(1);
         }
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 200) {
-                    $('.top-btn').fadeIn();
-                } else {
-                    $('.top-btn').fadeOut();
-                }
-            });
-
-            $('.top-btn').click(function() {
-                $('html, body').animate({scrollTop: 0}, 800);
-                return false;
-            });
-
-            // Get the current date
-            var currentDate = new Date();
-            var day = currentDate.getDate();
-            var month = currentDate.getMonth() + 1;
-            var year = currentDate.getFullYear();
-
-            // Format the date as "Month Day, Year"
-            var formattedDate = month + "/" + day + "/" + year;
-
-            // Set the last updated date in the HTML
-            $('.last-updated').text(formattedDate);
-        });
-    </script>
 </head>
 <body>
     <div class="container">
         <img src="P.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
-        <h2>Last Updated: <span class="last-updated"></span></h2>
+        <h2>Last Updated: <span class="last-updated">July 7, 2023</span></h2>
         <h2>Introduction</h2>
         <p>Welcome to the Pomodoro Timer App! This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
