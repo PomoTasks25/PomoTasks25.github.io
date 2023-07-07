@@ -55,7 +55,7 @@
     </style>
 </head>
 <body>
- <div class="container">
+    <div class="container">
         <img src="logo.png" alt="Pomodoro Timer App logo">
         <h1>Privacy Policy</h1>
         <h2>Introduction</h2>
