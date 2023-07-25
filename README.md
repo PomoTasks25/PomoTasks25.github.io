@@ -294,8 +294,7 @@
     <h3>Phone</h3>
 <p>You can also reach out to us via phone at +48 797 543 138. Our support team is available from Monday to Friday, 9:00 AM to 5:00 PM (Central European Time).</p>
 
-    <h3>Online Help Center</h3>
-    <p>Visit our <a href="https://www.pomotasks.com/helpcenter">Online Help Center</a> for FAQs, troubleshooting guides, and more helpful resources.</p>
+
 </div>
 <a href="#" class="top-btn">⬆</a>
 <a href="#" class="last-updated-btn" data-date="Last Updated: July 24, 2023">Last Updated</a>
