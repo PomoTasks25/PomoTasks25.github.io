@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pomo Tasks</title>
+    
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
 
@@ -297,7 +297,7 @@
 
 </div>
 <a href="#" class="top-btn">⬆</a>
-<a href="#" class="last-updated-btn" data-date="Last Updated: July 25, 2023">Last Updated</a>
+<a href="#" class="last-updated-btn" data-date="Last Updated: July 26, 2023">Last Updated</a>
 <button class="dark-light-btn" title="Toggle Dark/Light Mode">🌓</button>
 
 
