@@ -290,10 +290,10 @@
     <p>Here are the ways you can reach us:</p>
 
     <h3>Email</h3>
-    <p>For any general queries or technical support, please email us at <a href="mailto:support@pomotasks.com">support@pomotasks.com</a>. We aim to respond to your inquiries within 48 hours.</p>
+<p>For any general queries or technical support, please email us at <a href="mailto:pomotasks25@gmail.com">support@pomotasks.com</a>. We aim to respond to your inquiries within 48 hours.</p>
 
     <h3>Phone</h3>
-    <p>You can also reach out to us via phone at +48 797543138. Our support team is available from Monday to Friday, 9:00 AM to 5:00 PM (Central European Time).</p>
+<p>You can also reach out to us via phone at +48 797 543 138. Our support team is available from Monday to Friday, 9:00 AM to 5:00 PM (Central European Time).</p>
 
     <h3>Online Help Center</h3>
     <p>Visit our <a href="https://www.pomotasks.com/helpcenter">Online Help Center</a> for FAQs, troubleshooting guides, and more helpful resources.</p>
