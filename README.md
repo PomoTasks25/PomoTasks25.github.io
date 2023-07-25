@@ -297,7 +297,7 @@
 
 </div>
 <a href="#" class="top-btn">⬆</a>
-<a href="#" class="last-updated-btn" data-date="Last Updated: July 24, 2023">Last Updated</a>
+<a href="#" class="last-updated-btn" data-date="Last Updated: July 25, 2023">Last Updated</a>
 <button class="dark-light-btn" title="Toggle Dark/Light Mode">🌓</button>
 
 
