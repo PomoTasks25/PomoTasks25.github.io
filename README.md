@@ -55,7 +55,7 @@ body {
 
 
         .container {
-            animation: fadeIn 1s, float 6s infinite;
+            animation: fadeIn 1s;
             width: 80%;
             margin: 0 auto;
             padding: 20px;
