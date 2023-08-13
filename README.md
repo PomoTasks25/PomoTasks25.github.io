@@ -44,16 +44,15 @@
             }
         }
 
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #ff0000, #00aaff, #ff7f00);
-            background-size: 300% 300%;
-            animation: gradientBG 10s ease infinite;
-            overflow-x: hidden;
-            color: #fff;
-        }
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FCE1C6;
+    overflow-x: hidden;
+    color: #fff;
+}
+
 
         .container {
             animation: fadeIn 1s, float 6s infinite;
