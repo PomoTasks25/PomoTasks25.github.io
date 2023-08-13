@@ -261,16 +261,16 @@ h1, h2, h3, h4, h5, h6 {
     <p>The data is only collected when you manually input it during the payment process.</p>
     <p>We use a third-party payment processing service called Revenue Cat to handle transactions. As such, some of your information may be shared with Revenue Cat during the transaction process. We recommend reviewing Revenue Cat’s privacy policy to understand how they use and protect your information.</p>
 
-    <h2>User Rights</h2>
+    <p class="sub-title">User Rights</p>
     <p>As we do not collect or store personal data beyond what is necessary for the payment process, user rights pertaining to data access, modification, or deletion may be limited. For any concerns or requests related to your data, please contact us directly.</p>
 
-    <h2>Data Security</h2>
+    <p class="sub-title">Data Security</p>
     <p>Your payment data is secure as it is processed through Revenue Cat, a third-party payment processing service, which implements its own security measures. We do not handle or store this data on our servers.</p>
 
-    <h2>Children’s Privacy</h2>
+    <p class="sub-title">Children’s Privacy</p>
     <p>Our application is intended for a general audience and does not knowingly collect or solicit personal information from anyone under the age of 13.</p>
 
-    <h2>International Data Transfers</h2>
+    <p class="sub-title">International Data Transfers</p>
     <p>We do not transfer data internationally.</p>
 
     <h2>Changes to Privacy Policy</h2>
