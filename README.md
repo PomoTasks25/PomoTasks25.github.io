@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 
 </div>
 <a href="#" class="top-btn">⬆</a>
-<a href="#" class="last-updated-btn" data-date="Last Updated: July 26, 2023">Last Updated</a>
+<a href="#" class="last-updated-btn" data-date="Last Updated: August 13, 2023">Last Updated</a>
 <button class="dark-light-btn" title="Toggle Dark/Light Mode">🌓</button>
 
 </body>
