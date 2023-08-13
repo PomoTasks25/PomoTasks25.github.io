@@ -200,6 +200,27 @@ body {
     color: #000;
 }
 
+.main-title {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    font-size: 36px;
+    margin-top: 0;
+    color: #D31A1E;  /* Color change */
+}
+
+.sub-title {
+    font-size: 24px;
+    color: #D31A1E; /* Updated color */
+    margin-bottom: 10px;
+}
+
+.sub-title-small {
+    font-size: 20px;
+    color: #D31A1E; /* Updated color */
+    margin-bottom: 10px;
+}
+
+
 
 
 
@@ -254,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 
 <div class="container">
     <img src="appstore.png" alt="Pomodoro Timer App logo">
-    <p>Welcome to the Pomo Tasks App!</p>
+    <p class="main-title">Welcome to the Pomo Tasks App!</p>
     <p>This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
     <h2>Data Collection and Use</h2>
