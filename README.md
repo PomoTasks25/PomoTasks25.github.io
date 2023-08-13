@@ -204,8 +204,9 @@ body {
 
 
 
-
-
+h1, h2, h3, h4, h5, h6 {
+            display: none;
+        }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
