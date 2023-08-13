@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
     <p class="main-title">Welcome to the Pomo Tasks Apap!</p>
     <p class="sub-title">This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
-    <p>Data Collection and Use</p>
+    <h2>Data Collection and Use</h2>
     <p>This app only collects data necessary for the payment process and for basic functionality of the application. We do not collect personal data outside of this scope.</p>
     <p>The data is only collected when you manually input it during the payment process.</p>
     <p>We use a third-party payment processing service called Revenue Cat to handle transactions. As such, some of your information may be shared with Revenue Cat during the transaction process. We recommend reviewing Revenue Cat’s privacy policy to understand how they use and protect your information.</p>
