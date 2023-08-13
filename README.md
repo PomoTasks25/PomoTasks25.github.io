@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 
 </div>
 <a href="#" class="top-btn">
-  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
+  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
     <path fill="#90caf9" d="M38.35,39.3c0.8,0.8,2,0.8,2.8,0l4.1-4.1c0.8-0.8,0.8-2,0-2.8l-15.8-15.8c-0.8-0.8-2-0.8-2.8,0	l-15.9,15.9c-0.8,0.8-0.8,2,0,2.8l4.1,4.1c0.8,0.8,2,0.8,2.8,0L28.05,29L38.35,39.3z"></path>
     <path fill="none" stroke="#18193f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M20.664,28.386L24.05,25l10.3,10.3c0.8,0.8,2,0.8,2.8,0l4.1-4.1c0.8-0.8,0.8-2,0-2.8l-7.527-7.527"></path>
     <path fill="none" stroke="#18193f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M28.914,16.064L25.45,12.6c-0.8-0.8-2-0.8-2.8,0L6.75,28.5c-0.8,0.8-0.8,2,0,2.8l4.1,4.1c0.8,0.8,2,0.8,2.8,0l2.066-2.066"></path>
