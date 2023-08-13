@@ -189,15 +189,16 @@ body {
     color: #E82620;
 }
 
-        .dark-mode {
-            background: linear-gradient(135deg, #442222, #000066, #663300);
-            color: #fff;
-        }
+.dark-mode {
+    background: #E7B580;
+    color: #fff;
+}
 
-        .dark-mode .container {
-            background-color: rgba(255, 255, 255, 0.8);
-            color: #000;
-        }
+
+.dark-mode .container {
+    background-color: rgba(0, 0, 0, 0.8); /* or any other color of your choice */
+    color: #000;
+}
 
 
 
