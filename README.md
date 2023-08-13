@@ -17,20 +17,20 @@
             }
         }
 
-        @keyframes float {
-            0% {
-                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-                transform: translateY(0px);
-            }
-            50% {
-                box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-                transform: translateY(-20px);
-            }
-            100% {
-                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-                transform: translateY(0px);
-            }
-        }
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translateY(-20px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+}
 
         @keyframes gradientBG {
             0% {
