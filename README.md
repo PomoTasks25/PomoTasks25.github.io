@@ -5,8 +5,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <style>
 
-
-
     @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -52,7 +50,6 @@ body {
     overflow-x: hidden;
     color: #fff;
 }
-
 
         .container {
             animation: fadeIn 1s;
@@ -165,6 +162,7 @@ body {
         }
 
         /* Dark/Light Mode Button */
+        
 .dark-light-btn {
     position: fixed;
     top: 20px;
@@ -194,7 +192,6 @@ body {
     color: #fff;
 }
 
-
 .dark-mode .container {
     background-color: rgba(0, 0, 0, 0.8); /* or any other color of your choice */
     color: #000;
@@ -220,19 +217,11 @@ body {
     margin-bottom: 10px;
 }
 
-
-
-
-
-
 h1, h2, h3, h4, h5, h6 {
             display: none;
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-
 
     <script>
         $(document).ready(function() {
@@ -258,21 +247,10 @@ h1, h2, h3, h4, h5, h6 {
         });
     </script>
 
-
-
-
-
 </head>
 
-
-
-
 <body>
-
-
-
-
-
+    
 <div class="container">
     <img src="appstore.png" alt="Pomodoro Timer App logo">
     <p class="main-title">Welcome to the Pomo Tasks App!</p>
@@ -316,12 +294,10 @@ h1, h2, h3, h4, h5, h6 {
     <h3>Phone</h3>
 <p>You can also reach out to us via phone at +48 797 543 138. Our support team is available from Monday to Friday, 9:00 AM to 5:00 PM (Central European Time).</p>
 
-
 </div>
 <a href="#" class="top-btn">⬆</a>
 <a href="#" class="last-updated-btn" data-date="Last Updated: July 26, 2023">Last Updated</a>
 <button class="dark-light-btn" title="Toggle Dark/Light Mode">🌓</button>
-
 
 </body>
 
