@@ -273,18 +273,18 @@ h1, h2, h3, h4, h5, h6 {
     <p class="sub-title">International Data Transfers</p>
     <p>We do not transfer data internationally.</p>
 
-    <h2>Changes to Privacy Policy</h2>
+    <p class="sub-title">Changes to Privacy Policy</p>
     <p>We may update this Privacy Policy as necessary. Any updates will be notified through the app.</p>
 
-    <h2>Device Permissions</h2>
+    <p class="sub-title">Device Permissions</p>
     <p>For the optimal functioning of the app, we require certain permissions from your device, such as access to notifications and live activities. These permissions do not involve access to your personal data and are solely used to ensure proper app functionality.</p>
 
-    <h2>Contact Us</h2>
+    <p class="sub-title">Contact Us</p>
     <p>For any questions or concerns about this Privacy Policy, please contact us at:</p>
     <p>Email: pomotasks25@gmail.com</p>
     <p>Phone: +48 797543138</p>
 
-    <h2>Support</h2>
+    <p class="sub-title">Support</p>
     <p>If you encounter any issues while using our app or have any other concerns that need our assistance, you can contact our support team. We're here to help you!</p>
     <p>Here are the ways you can reach us:</p>
 
