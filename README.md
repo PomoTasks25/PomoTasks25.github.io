@@ -90,21 +90,21 @@ body {
             box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
         }
 
-        .top-btn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #ff7f00;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 14px;
-            transition: all 0.3s;
-            opacity: 0.7;
-            display: none;
-            z-index: 9999;
-        }
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #E82620;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+    opacity: 0.7;
+    display: none;
+    z-index: 9999;
+}
 
         .top-btn:hover {
             opacity: 1;
@@ -127,21 +127,21 @@ body {
             transform: translateX(-50%) scale(1);
         }
 
-        .last-updated-btn {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: linear-gradient(135deg, #663333, #664400, #336633);
-            color: white;
-            padding: 10px 20px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 14px;
-            transition: all 0.3s;
-            opacity: 0.7;
-            display: none;
-            z-index: 9999;
-        }
+.last-updated-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #E82620;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+    opacity: 0.7;
+    display: none;
+    z-index: 9999;
+}
 
         .last-updated-btn:hover {
             opacity: 1;
@@ -165,29 +165,29 @@ body {
         }
 
         /* Dark/Light Mode Button */
-        .dark-light-btn {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            background: #333;
-            color: #fff;
-            border: none;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 20px;
-            cursor: pointer;
-            transition: background 0.3s, color 0.3s;
-            z-index: 9999;
-        }
+.dark-light-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #E82620;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    z-index: 9999;
+}
 
-        .dark-light-btn:hover {
-            background: #fff;
-            color: #333;
-        }
+.dark-light-btn:hover {
+    background: #fff;
+    color: #E82620;
+}
 
         .dark-mode {
             background: linear-gradient(135deg, #442222, #000066, #663300);
