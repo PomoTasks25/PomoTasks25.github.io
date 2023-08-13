@@ -251,7 +251,7 @@ body {
 
 
 <div class="container">
-    <img src="P.png" alt="Pomodoro Timer App logo">
+    <img src="appstore.png" alt="Pomodoro Timer App logo">
     <h1>Welcome to the Pomo Tasks App!</h1>
     <p>This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application. Please read this policy carefully. If you disagree with its terms, please discontinue use of the application immediately.</p>
 
