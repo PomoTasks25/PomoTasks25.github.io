@@ -87,53 +87,20 @@ body {
             box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
         }
 
-.top-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #E82620;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 14px;
-    transition: all 0.3s;
-    opacity: 0.7;
-    display: none;
-    z-index: 9999;
+.top-btn:hover {
+    opacity: 1;
 }
 
-        .top-btn:hover {
-            opacity: 1;
-        }
-
-        .top-btn::before {
-            content: "⬆";
-            position: absolute;
-            bottom: -20px;
-            left: 50%;
-            opacity: 0;
-            transform: translateX(-50%) scale(0.5);
-            transition: all 0.3s;
-            pointer-events: none;
-        }
-
-        .top-btn:hover::before {
-            bottom: -40px;
-            opacity: 1;
-            transform: translateX(-50%) scale(1);
-        }
-
+/* Removed the .top-btn::before, .top-btn:hover::before styles since you no longer want the red circle effect */
 
 .top-btn {
-
-    
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px; /* Adjust width and height to better fit the SVG */
     height: 50px;
 }
+
 
 
 .last-updated-btn {
